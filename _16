@@ -1,0 +1,8 @@
+
+#include <stdio.h>
+
+int main() {
+    float r=7;
+    printf("Surface Area = %.2f\n", 4*3.14*r*r);
+    return 0;
+}
