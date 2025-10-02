@@ -5,6 +5,6 @@ int main() {
     int b = 2;
     // Calculation: ((2 * 2) + 2) / 2 - 2
     float result = (float)(((a * b) + 2) / 2.0) - 2;
-    printf("10. Complex Op ((((2*2)+2)/2)-2): %.1f\n", result);
+    printf("Complex Op ((((2*2)+2)/2)-2): %.1f\n", result);
     return 0;
 }
