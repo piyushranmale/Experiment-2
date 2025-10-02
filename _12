@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 2;
+    int num2 = 2;
+    int diff = num1 - num2;
+    
+    if (diff >= 0) {
+        printf("Conditional Difference (2 - 2) is non-negative: %d\n", diff);
+    } else {
+        printf("Conditional Difference (2 - 2) is negative: %d\n", diff);
+    }
+    return 0;
+}
