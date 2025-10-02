@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float r, area;
+    printf("Enter radius: ");
+    scanf("%f", &r);
+    area = 4 * 3.14159 * r * r;
+    printf("Surface area of sphere = %.2f", area);
+    return 0;
+}
