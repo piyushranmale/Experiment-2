@@ -1,0 +1,8 @@
+
+#include <stdio.h>
+#define PI 3.1416
+int main() {
+    float r=7;
+    printf("Surface Area = %.2f\n", 4*PI*r*r);
+    return 0;
+}
