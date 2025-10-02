@@ -1,0 +1,7 @@
+
+#include <stdio.h>
+int main() {
+    float s=60, t=1.5;
+    printf("Distance = %.2f\n", s*t);
+    return 0;
+}
